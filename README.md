@@ -88,7 +88,7 @@ public static boolean externalMemoryAvailable() {
     
 
 ĝgggggggg
-
+'''Kotlin
 import android.os.Environment
 import java.io.File
 
@@ -154,4 +154,4 @@ fun formatSize(size: Long): String {
     return "$size"
 }
 
-
+'''
