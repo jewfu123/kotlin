@@ -1,0 +1,179 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright 2020 The Android Open Source Project
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~     https://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~ Unless required by applicable law or agreed to in writing, software
+12  ~ distributed under the License is distributed on an "AS IS" BASIS,
+13  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~ See the License for the specific language governing permissions and
+15  ~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    xmlns:dist="http://schemas.android.com/apk/distribution"
+19    package="com.android.example.cameraxbasic"
+20    android:versionCode="1"
+21    android:versionName="1.0.0" >
+22
+23    <uses-sdk
+24        android:minSdkVersion="21"
+24-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml
+25        android:targetSdkVersion="33" />
+25-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml
+26
+27    <!-- Enable instant app support -->
+28    <dist:module dist:instant="true" />
+28-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:24:5-40
+28-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:24:18-37
+29
+30    <!-- Declare features -->
+31    <uses-feature android:name="android.hardware.camera" />
+31-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:27:5-60
+31-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:27:19-57
+32
+33    <!-- Declare permissions -->
+34    <uses-permission android:name="android.permission.CAMERA" />
+34-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:30:5-65
+34-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:30:22-62
+35
+36    <application
+36-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:32:5-82:19
+37        android:name="com.android.example.cameraxbasic.MainApplication"
+37-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:33:9-40
+38        android:allowBackup="true"
+38-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:37:9-35
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.6.0] C:\Users\jewfu\.gradle\caches\transforms-3\1b3a273f8ad1c5ddc1cb3346a1549bfb\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+40        android:debuggable="true"
+41        android:icon="@mipmap/ic_launcher"
+41-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:34:9-43
+42        android:label="@string/app_name"
+42-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:36:9-41
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:35:9-54
+44        android:testOnly="true" >
+45        <activity
+45-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:40:9-80:20
+46            android:name="com.android.example.cameraxbasic.MainActivity"
+46-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:41:13-41
+47            android:clearTaskOnLaunch="true"
+47-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:42:13-45
+48            android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
+48-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:48:13-91
+49            android:exported="true"
+49-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:50:13-36
+50            android:icon="@mipmap/ic_launcher"
+50-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:44:13-47
+51            android:resizeableActivity="true"
+51-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:47:13-46
+52            android:rotationAnimation="seamless"
+52-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:46:13-49
+53            android:screenOrientation="fullUser"
+53-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:45:13-49
+54            android:theme="@style/AppTheme" >
+54-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:43:13-44
+55
+56            <!-- Main app intent filter -->
+57            <intent-filter>
+57-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:53:13-56:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:54:17-69
+58-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:54:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:55:17-77
+60-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:55:27-74
+61            </intent-filter>
+62
+63            <!-- Register as a system camera app -->
+64            <intent-filter>
+64-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:59:13-64:29
+65                <action android:name="android.media.action.IMAGE_CAPTURE" />
+65-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:60:17-77
+65-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:60:25-74
+66                <action android:name="android.media.action.STILL_IMAGE_CAMERA" />
+66-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:61:17-81
+66-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:61:25-79
+67                <action android:name="android.media.action.VIDEO_CAMERA" />
+67-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:62:17-76
+67-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:62:25-73
+68
+69                <category android:name="android.intent.category.DEFAULT" />
+69-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:63:17-75
+69-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:63:27-73
+70            </intent-filter>
+71
+72            <!-- App links for http/s -->
+73            <intent-filter android:autoVerify="true" >
+73-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:67:13-75:29
+73-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:67:28-53
+74                <action android:name="android.intent.action.VIEW" />
+74-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:68:17-69
+74-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:68:25-66
+75
+76                <category android:name="android.intent.category.DEFAULT" />
+76-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:63:17-75
+76-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:63:27-73
+77                <category android:name="android.intent.category.BROWSABLE" />
+77-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:70:17-78
+77-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:70:27-75
+78
+79                <data android:scheme="http" />
+79-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:71:17-47
+79-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:71:23-44
+80                <data android:scheme="https" />
+80-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:71:17-47
+80-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:71:23-44
+81                <data android:host="example.android.com" />
+81-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:71:17-47
+81-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:73:23-57
+82                <data android:pathPattern="/camerax" />
+82-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:71:17-47
+82-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:74:23-53
+83            </intent-filter>
+84
+85            <!-- Declare notch support -->
+86            <meta-data
+86-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:78:13-83
+87                android:name="android.notch_support"
+87-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:78:24-60
+88                android:value="true" />
+88-->C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\main\AndroidManifest.xml:78:61-81
+89        </activity>
+90
+91        <uses-library
+91-->[androidx.window:window:1.0.0-alpha09] C:\Users\jewfu\.gradle\caches\transforms-3\8d4d815f0598b70763909fe9aeb06df2\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:25:9-27:40
+92            android:name="androidx.window.extensions"
+92-->[androidx.window:window:1.0.0-alpha09] C:\Users\jewfu\.gradle\caches\transforms-3\8d4d815f0598b70763909fe9aeb06df2\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:26:13-54
+93            android:required="false" />
+93-->[androidx.window:window:1.0.0-alpha09] C:\Users\jewfu\.gradle\caches\transforms-3\8d4d815f0598b70763909fe9aeb06df2\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:27:13-37
+94        <uses-library
+94-->[androidx.window:window:1.0.0-alpha09] C:\Users\jewfu\.gradle\caches\transforms-3\8d4d815f0598b70763909fe9aeb06df2\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:28:9-30:40
+95            android:name="androidx.window.sidecar"
+95-->[androidx.window:window:1.0.0-alpha09] C:\Users\jewfu\.gradle\caches\transforms-3\8d4d815f0598b70763909fe9aeb06df2\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:29:13-51
+96            android:required="false" />
+96-->[androidx.window:window:1.0.0-alpha09] C:\Users\jewfu\.gradle\caches\transforms-3\8d4d815f0598b70763909fe9aeb06df2\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:30:13-37
+97
+98        <service
+98-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\jewfu\.gradle\caches\transforms-3\17493d1535c887fa6a00c7d1be131dc2\transformed\jetified-camera-camera2-1.1.0-beta01\AndroidManifest.xml:26:9-35:19
+99            android:name="androidx.camera.core.impl.MetadataHolderService"
+99-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\jewfu\.gradle\caches\transforms-3\17493d1535c887fa6a00c7d1be131dc2\transformed\jetified-camera-camera2-1.1.0-beta01\AndroidManifest.xml:27:13-75
+100            android:enabled="false"
+100-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\jewfu\.gradle\caches\transforms-3\17493d1535c887fa6a00c7d1be131dc2\transformed\jetified-camera-camera2-1.1.0-beta01\AndroidManifest.xml:28:13-36
+101            android:exported="false" >
+101-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\jewfu\.gradle\caches\transforms-3\17493d1535c887fa6a00c7d1be131dc2\transformed\jetified-camera-camera2-1.1.0-beta01\AndroidManifest.xml:29:13-37
+102            <meta-data
+102-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\jewfu\.gradle\caches\transforms-3\17493d1535c887fa6a00c7d1be131dc2\transformed\jetified-camera-camera2-1.1.0-beta01\AndroidManifest.xml:32:13-34:89
+103                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+103-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\jewfu\.gradle\caches\transforms-3\17493d1535c887fa6a00c7d1be131dc2\transformed\jetified-camera-camera2-1.1.0-beta01\AndroidManifest.xml:33:17-103
+104                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+104-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\jewfu\.gradle\caches\transforms-3\17493d1535c887fa6a00c7d1be131dc2\transformed\jetified-camera-camera2-1.1.0-beta01\AndroidManifest.xml:34:17-86
+105        </service>
+106    </application>
+107
+108</manifest>

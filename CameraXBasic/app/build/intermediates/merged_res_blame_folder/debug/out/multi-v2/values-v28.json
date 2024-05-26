@@ -1,0 +1,47 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.android.example.cameraxbasic.app-mergeDebugResources-30:/values-v28/values-v28.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\jewfu\\.gradle\\caches\\transforms-3\\0a47400c7569b937c6427e843bcf466a\\transformed\\appcompat-1.3.1\\res\\values-v28\\values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,447",
+                        "endLines": "2,3,7,11",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,442,684"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "218,293,380,560",
+                        "endLines": "5,6,10,14",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "288,375,555,747"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jewfu\\Git\\Android\\Camera\\camera-samples\\CameraXBasic\\app\\src\\main\\res\\values-v28\\styles.xml",
+                    "from": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "745",
+                        "endLines": "21",
+                        "endColumns": "12",
+                        "endOffsets": "905"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "213"
+                    }
+                }
+            ]
+        }
+    ]
+}

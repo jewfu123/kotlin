@@ -1,0 +1,7 @@
+com.android.example.cameraxbasic.test.app-androidTest-0 C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\build\generated\res\resValues\androidTest\debug
+com.android.example.cameraxbasic.test.app-androidTest-1 C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\build\generated\res\rs\androidTest\debug
+com.android.example.cameraxbasic.test.app-mergeDebugAndroidTestResources-2 C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.android.example.cameraxbasic.test.app-mergeDebugAndroidTestResources-3 C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.android.example.cameraxbasic.test.app-merged_res-4 C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\build\intermediates\merged_res\debugAndroidTest
+com.android.example.cameraxbasic.test.app-androidTest-5 C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\androidTest\res
+com.android.example.cameraxbasic.test.app-androidTestDebug-6 C:\Users\jewfu\Git\Android\Camera\camera-samples\CameraXBasic\app\src\androidTestDebug\res
