@@ -299,6 +299,25 @@ Java技能树首页概览146241 人正在系统学习中
 URI详解：
 https://blog.csdn.net/JMW1407/article/details/114840191
 
+How to add ksp in android gradle library
+```kotlin
+in the first build.gradle.kts (Project: app)
+-->
+plugins {
+id("com.android.application") version "8.1.2" apply false
+id("org.jetbrains.kotlin.android") version "1.8.10" apply false
+id("com.google.devtools.ksp") version "1.8.10-1.0.9" apply false
+}
+
+in another build.gradle.kts (Module: app)
+-->
+add plugin -> id("com.google.devtools.ksp")
+add dependencies {
+// To use kotlin symbol processing (KSP)
+ksp("androidx.room:room-compiler:2.5.2")
+
+```
+
 
 
 
