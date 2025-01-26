@@ -1,4 +1,6 @@
 # kotlin
+#### 2025-1-27 add MVVM sample : -> MVVMShoppingList
+
 some sample codes from Android Kotlin
 
 #api website:
